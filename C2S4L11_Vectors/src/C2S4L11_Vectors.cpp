@@ -20,8 +20,10 @@ int main() {
 	for (int i = 0; i < strs.size(); i++)
 		cout << strs[i] << endl;
 
-	for (vector<string>::iterator it = strs.begin(); it != strs.end(); it++)
-		cout << *it << endl;
+	for (vector<string>::iterator it = strs.begin(); it != strs.end(); it++) {
+		cout << *it;
+		cout << endl;
+	}
 
 	vector<string>::iterator it = strs.begin();
 	it += 3;
