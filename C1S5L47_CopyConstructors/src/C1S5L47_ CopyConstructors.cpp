@@ -9,6 +9,10 @@
 #include <iostream>
 using namespace std;
 
+/**
+ * Default copy constructors only perform shallow copies
+ * (copied pointers will point to same memory instead of allocating new memory)
+ */
 class Animal {
 private:
 	static int ID;
